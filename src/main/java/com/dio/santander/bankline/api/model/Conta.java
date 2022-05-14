@@ -11,7 +11,6 @@ public class Conta {
 	@Column(name = "conta_saldo")
 	private Double saldo;
 	
-	// gets and sets
 	public Long getNumero() {
 		return numero;
 	}
