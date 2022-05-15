@@ -1,14 +1,14 @@
 package com.dio.santander.bankline.api.dto;
 
 public class NovoCorrentista {
-	private String name;
+	private String nome;
 	private String cpf;
 	
-	public String getName() {
-		return name;
+	public String getNome() {
+		return nome;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public void setName(String nome) {
+		this.nome = nome;
 	}
 	public String getCpf() {
 		return cpf;
